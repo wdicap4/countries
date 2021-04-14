@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Cards = (props) => {
+const Card = (props) => {
     const { country } =props;
 
     return (
-      <li>
+      <li className ="card">
           <img src={country.flag} alt="flag" />
           <div className="data-container">
               <ul>
@@ -18,4 +18,4 @@ const Cards = (props) => {
     );
 };
 
-export default Cards;
+export default Card;
