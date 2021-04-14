@@ -1,7 +1,8 @@
 import React from 'react';
 
 const Cards = (props) => {
-    console.log(props)
+    const { country } =props;
+    console.log(country);
     return (
         <div>
             card;
